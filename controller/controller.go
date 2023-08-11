@@ -115,7 +115,7 @@ func DeletePembeli(c echo.Context) error {
 	}
 
 	response := map[string]interface{}{
-		"message": "a book has been deleted",
+		"message": "user has been deleted",
 	}
 	return c.JSON(http.StatusOK, response)
 }
